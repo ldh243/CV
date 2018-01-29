@@ -71,7 +71,7 @@ h6 {
  * LINK STYLE
  *------------------------------------------*/
 a {
-    color              : #FFC107;
+    color              : #556E8E;
     text-decoration    : none;
     -webkit-transition : all 0.3s ease 0s;
     -moz-transition    : all 0.3s ease 0s;
@@ -367,7 +367,9 @@ button:focus,
 /*-------------------
  * Skills Progressbar
  *-------------------*/
-
+ .progress {
+     background-color: #ccc;
+    }
 .progress-item {
     position : relative;
     }
@@ -380,13 +382,13 @@ button:focus,
     }
 
 .progress-item .progress {
-    height        : 4px;
+    height        : 7px;
     box-shadow    : none;
     border-radius : 5px;
     }
 
 .progress-item .progress-bar {
-    background-color : #FFC107;
+    background-color : #556E8E;
     box-shadow       : none;
     text-align       : right;
     }
@@ -460,7 +462,7 @@ button:focus,
  *-------------------*/
 
 .content-item {
-    margin-bottom : 40px;
+    margin-bottom : 30px;
     }
 
 .content-item h3 {
